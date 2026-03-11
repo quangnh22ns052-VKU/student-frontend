@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//   baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080',
+// });
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL,
+  baseURL: 'https://student-backend-nf1o.onrender.com',
 });
 
 export const studentApi = {
